@@ -342,7 +342,7 @@
 
     <footer class="footer">
         <div class="container">
-            <!-- Contacts-->
+            <!-- Contacts -->
             <div class="footer-address">
                 <a href="./index.html" class="footer-link">
                     <span class="footer-logo">Web</span>Studio
@@ -395,6 +395,19 @@
                     </li>
                 </ul>
             </div>
+            <!-- Subscriotion -->
+            <form class="subscription-form">
+                <p class="subs-title">Подпишитесь на рассылку</p>
+                <div class="subscription">
+                    <label for="subs-email"></label>
+                    <input class="subs-input" id="subs-email" name="subs-email" type="email" placeholder="E-mail" autocomplete="email">
+                    <button class="subs-btn" type="submit">Подписаться
+                        <svg class="icon-send" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
     
@@ -406,6 +419,41 @@
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+            <form class="main-form">
+                <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+                <div class="form-field">
+                    <label class="field-label" for="name">Имя</label>
+                    <input class="field-input" id="name" type="text" name="name" autocomplete="name">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+                    <label class="field-label" for="tel">Телефон</label>
+                    <input class="field-input" id="tel" type="tel" name="tel" autocomplete="tel">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="form-field">
+                    <label class="field-label" for="email">Почта</label>
+                    <input class="field-input" id="email" type="email" name="email" autocomplete="email">
+                    <svg class="icon-input" width="18px" height="18px">
+                        <use href="./images/sprite.svg#icon-email"></use>
+                    </svg>
+                </div>
+                <div class="form-field comment">
+                    <label class="field-label" for="comment">Комментарий</label>
+                    <textarea class="field-input textarea" id="comment" name="comment" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="form-check">
+                    <input class="check-input" type="checkbox" id="check" name="privacy">
+                    <label class="check-label" for="check">Соглашаюсь с рассылкой и принимаю<a class="policy-link"
+                            href="https://policies.google.com/terms?hl=ru-UA&fg=1">Условия договора</a></label>
+                </div>
+                <button class="send-btn" type="submit">Отправить</button>
+            
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
