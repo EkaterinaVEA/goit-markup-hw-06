@@ -218,6 +218,7 @@ img {
 .send-btn {
   display: block;
   margin: 0 auto;
+  padding: 10px 0;
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
@@ -231,6 +232,7 @@ img {
   line-height: 1.87;
   align-items: center;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ========= ADVANTAGES ======== */
